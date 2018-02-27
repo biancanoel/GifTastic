@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic!</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 page-header">
+                <h1>Welcome to the Jungle</h1>
+            </div> 
+            <div class="col-md-8 col-md-offset-3 where-buttons-go">
+                <div id="animal-buttons">  </div>
+            </div>
+
+            <div class="col-md-4 col-md-offset-4">
+                <form id="add-animal-field">
+                    <label for="animal-name">Add an Animal</label>
+                    <input type="text" name="animal-name" id="user-input">
+                    <input type="submit" value="Submit" id="add-animal">
+                </form>
+            </div>    
+        </div>
+
+        
+            <div class="col-md-10" id="animal-gifs"> </div>
+                    
+            
+            
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
