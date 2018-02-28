@@ -1,10 +1,62 @@
+html {height:100%;}
+
+body{
+    background: linear-gradient(rgba(26, 68, 1, 0.817), rgba(5, 121, 1, 0.598));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+.page-header{
+    background-image: url("jungle.jpg");
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 500%;
+}
+
+
 h3 {
     display: inline;
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
+    left: 50px;
+    color: white;
 }
 
 span {
     position: relative;
 }
+
+.animal {
+    background: orange;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: rgb(242, 242, 242);
+}
+
+form{
+    margin-top: 50px;
+    font-family: 'Aclonica', sans-serif;
+    background: rgba(2, 135, 62, 0.817);
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 30px;
+    color: white;
+}
+
+#add-animal {
+    margin-left: 0;
+}
+
+.instructions {
+    margin-top: 50px;
+}
+
+
 

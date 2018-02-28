@@ -34,6 +34,7 @@ $( document ).ready(function() {
     function displayAnimal () {
         $("#animal-gifs").empty();
         var currentAnimal = $(this).attr("data-name");
+    
         console.log("this button was clicked: "+currentAnimal);
         
         var giphyURl = "https://api.giphy.com/v1/gifs/search?api_key=iRNn2iIlNzOGsV8t1k3AbQFRmpDaRoBO&q="+currentAnimal+"&limit=9"
@@ -49,7 +50,7 @@ $( document ).ready(function() {
                 var rating= response.data[i].rating
 
                 var newAnimalDiv = $("<span>");
-                newAnimalDiv.addClass("col-md-4");
+                newAnimalDiv.addClass("col-md-4 img-responsive");
                 newAnimalDiv.append("<h3> Rating: "+rating+"</h3")
                 newAnimalDiv.append("<img src='"+newGifUrl+"' class='gif'>")
 
